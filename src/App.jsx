@@ -1,6 +1,5 @@
 import React from 'react';
 import { Route, Routes, Navigate } from 'react-router-dom';
-import Container from 'react-bootstrap/Container';
 import NotFound from './Pages/NotFound';
 import Projects from './Pages/Projects';
 import About from './Pages/About';
@@ -9,7 +8,7 @@ import './App.css';
 
 function App() {
   return (
-    <Container fluid className="app-container">
+    <div id="app-container">
       <Routes>
         <Route exact path="/about" element={ <About /> } />
         <Route exact path="/projects" element={ <Projects /> } />
@@ -17,7 +16,7 @@ function App() {
         <Route exact path="/" element={ <Navigate replace to="/home" /> } />
         <Route path="*" exact="true" element={ <NotFound /> } />
       </Routes>
-    </Container>
+    </div>
   );
 }
 

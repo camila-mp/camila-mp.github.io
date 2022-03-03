@@ -1,5 +1,41 @@
-.app-container {
-  background-color: lavender;
+:root {
+  --clr-light-mint: #F1FFFA;
+  --clr-medium-lavender: #675978;
+  --clr-dark-grey: #292929;
+  --clr-medium-turquoise: #05A8AA;
+
+  --ff-main: 'Rubik', sans-serif;
+}
+
+body {
+  color: var(--clr-light-mint);
+  font-family: var(--ff-main);
+  font-weight: 600;
+}
+
+button {
+  background-color: var(--clr-medium-turquoise);
+}
+
+img {
+  border: 3px solid var(--clr-medium-turquoise);
+}
+
+#back-btn {
+  background-color: var(--clr-medium-turquoise);
+  color: var(--clr-light-mint);
+}
+
+#app-container {
+  background-color: var(--clr-medium-lavender);
   height: 100vh;
   width: 100%;
+}
+
+#home-container {
+  background-color: var(--clr-medium-lavender);
+}
+
+.info-card {
+  background-color: var(--clr-medium-turquoise);
 }
