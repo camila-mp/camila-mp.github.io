@@ -4,11 +4,13 @@ import NotFound from './Pages/NotFound';
 import Projects from './Pages/Projects';
 import About from './Pages/About';
 import Home from './Pages/Home';
+import Navbar from './Components/Navbar';
 import './App.css';
 
 function App() {
   return (
     <div id="app-container">
+      <Navbar />
       <Routes>
         <Route exact path="/about" element={ <About /> } />
         <Route exact path="/projects" element={ <Projects /> } />
