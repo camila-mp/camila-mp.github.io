@@ -5,6 +5,7 @@ import Projects from './Pages/Projects';
 import About from './Pages/About';
 import Home from './Pages/Home';
 import Navbar from './Components/Navbar';
+import Footer from './Components/Footer';
 import './App.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route exact path="/" element={ <Navigate replace to="/home" /> } />
         <Route path="*" exact="true" element={ <NotFound /> } />
       </Routes>
+      <Footer />
     </div>
   );
 }
