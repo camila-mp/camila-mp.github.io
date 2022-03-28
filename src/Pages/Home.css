@@ -31,7 +31,7 @@ https://codepen.io/alphardex/pen/ExaZgxp*/
   width: 80vw;
 }
 
-.card {
+.handmade-card {
   align-items: center;
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px;
@@ -47,7 +47,7 @@ https://codepen.io/alphardex/pen/ExaZgxp*/
   width: 250px;
 }
 
-.card:hover {
+.handmade-card:hover {
   transform: rotateY(180deg);
 }
 
