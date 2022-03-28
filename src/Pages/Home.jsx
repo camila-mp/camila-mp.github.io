@@ -26,13 +26,13 @@ export default function Home() {
 
   return (
     <Container id="home-container">
-      <img id="picture-camila" src={ mypic } alt="minha-foto" />
+      <img id="picture-camila" src={ mypic } alt="foto-camila-malvessi" />
       <header id="name-header">
         <h1>Camila Malvessi Pereira</h1>
         <h3 className="h3-dev-title">Desenvolvedora fullstack</h3>
       </header>
       <section id="card-section">
-        <div className="card">
+        <div className="handmade-card">
           <div className="card-front">
             <h3>front-end</h3>
           </div>
@@ -40,7 +40,7 @@ export default function Home() {
             { mapSkills('frontend') }
           </div>
         </div>
-        <div className="card">
+        <div className="handmade-card">
           <div className="card-front">
             <h3>back-end</h3>
           </div>
