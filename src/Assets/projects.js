@@ -1,10 +1,10 @@
-const summaryToDo = 'O app consiste em uma lista de tarefas com várias funcionalidades,'
-+ ' como por exemplo: adicionar tarefa, riscar tarefa concluída, mudar ordem das tarefas,'
-+ ' remover uma tarefa e salvar a lista de tarefas.';
+const summaryToDo = 'A aplicação consiste em uma lista de tarefas com várias '
++ 'funcionalidades, como: adicionar tarefa, riscar tarefa concluída, mudar'
++ ' ordem das tarefas, remover uma tarefa e salvar a lista de tarefas.';
 
 const summaryWebWallet = 'A aplicação simula uma carteira de controle de gastos com'
-+ ' conversor de moedas. A conversão é sempre atualizada com consumo'
-+ 'de dados da API awesomeAPI - Cotações de Moedas.';
++ ' conversor de moedas. A conversão de moedas é feita com consumo'
++ ' de dados da API awesomeAPI - Cotações de Moedas.';
 
 const toDoListVanilla = {
   id: 1,
