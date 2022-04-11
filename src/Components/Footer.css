@@ -1,7 +1,10 @@
 #camilas-footer {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  position: relative;
+  bottom: 0;
+  display: block;
+  height: 2.5rem; 
+  margin: 10px auto 10px;
+  padding-top: 20px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
 }
