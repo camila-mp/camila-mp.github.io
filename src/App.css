@@ -39,7 +39,8 @@ button {
 
 #app-container {
   background-color: var(--clr-medium-grey-blue);
-  height: 100vh;
+  min-height: 100vh;
+  position: relative;
   width: 100%;
 }
 
@@ -64,7 +65,7 @@ button {
   transform: scale(1.2); 
 }
 
-.card {
+.handmade-card {
   background-color: var(--clr-medium-turquoise);
   color: var(--clr-deep-violet);
 }
@@ -77,4 +78,14 @@ button {
 .card-back {
   background-color: var(--clr-medium-grey-blue);
   color: var(--clr-light-mint);
+}
+
+#project-cards .card {
+  background-color: var(--clr-medium-turquoise);
+  color: var(--clr-light-mint);
+}
+
+#projectcard-tag {
+  color: var(--clr-light-mint);
+  border: 1px solid var(--clr-deep-violet);
 }
