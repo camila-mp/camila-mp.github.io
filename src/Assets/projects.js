@@ -10,14 +10,14 @@ const toDoListVanilla = {
   id: 1,
   title: 'To-Do List (Lista de Tarefas)',
   summary: summaryToDo,
-  tags: ['front-end', 'vanilla', 'JavaScript'],
+  tags: ['front-end', 'JavaScript', 'vanilla'],
 };
 
 const webWalletReact = {
   id: 2,
   title: 'WebWallet',
   summary: summaryWebWallet,
-  tags: ['front-end', 'ReactJS', 'Redux', 'JavaScript'],
+  tags: ['front-end', 'JavaScript', 'ReactJS', 'Redux'],
 };
 
 export { toDoListVanilla, webWalletReact };
