@@ -11,7 +11,7 @@ const toDoListVanilla = {
   title: 'To-Do List (Lista de Tarefas)',
   summary: summaryToDo,
   tags: ['front-end', 'JavaScript', 'vanilla'],
-  link: 'https://camila-mp.github.io/lista-de-tarefas/',
+  link: 'https://github.com/camila-mp/lista-de-tarefas',
 };
 
 const webWalletReact = {
@@ -19,7 +19,7 @@ const webWalletReact = {
   title: 'WebWallet',
   summary: summaryWebWallet,
   tags: ['front-end', 'JavaScript', 'ReactJS', 'Redux'],
-  link: 'https://camila-mp.github.io/webwallet/',
+  link: 'https://github.com/camila-mp/webwallet',
 };
 
 export { toDoListVanilla, webWalletReact };
