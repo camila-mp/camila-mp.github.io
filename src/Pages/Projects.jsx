@@ -32,7 +32,7 @@ export default function Projects() {
 
   return (
     <Container id="projects-container">
-      <h1>My projects</h1>
+      <h1>Projetos</h1>
       <div id="project-cards">
         { mapCards(projects) }
       </div>
