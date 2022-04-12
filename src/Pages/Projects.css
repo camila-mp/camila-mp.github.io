@@ -21,9 +21,10 @@
 
 #projectcard-tag {
   border-radius: 5px;
+  font-size: 13px;
   font-weight: 400;
-  padding: 3px;
-  margin: 3px;
+  padding: .3em;
+  margin: .3em;
   width: fit-content;
 }
 
@@ -36,6 +37,15 @@
   justify-content: center;
   text-align: center;
   width: 100%;
+}
+
+#proj-github {
+  transition: all .1s ease-in-out;
+  width: 2em;
+}
+
+#proj-github:hover {
+  transform: scale(1.2); 
 }
 
 @media only screen and (min-width: 600px) {
