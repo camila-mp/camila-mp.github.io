@@ -1,0 +1,21 @@
+#about-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  height: 85%;
+  justify-content: center;
+  margin-top: 5vh;
+  padding-bottom: 2.5rem;
+  text-align: center;
+  width: 100vw;
+}
+
+#about-text-section {
+  align-items: center;
+  display: flex;
+  font-weight: 400;
+  flex-direction: column;
+  justify-content: center;
+  width: 60vw;
+}
