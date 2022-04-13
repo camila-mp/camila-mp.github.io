@@ -1,12 +1,12 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
-import { toDoListVanilla, webWalletReact } from '../Assets/projects';
+import { toDoListVanilla, webWalletReact, cookmasterAPI } from '../Assets/projects';
 import github from '../Assets/icons8-github-60.png';
 import './Projects.css';
 
 export default function Projects() {
-  const projects = [toDoListVanilla, webWalletReact];
+  const projects = [toDoListVanilla, webWalletReact, cookmasterAPI];
 
   function mapCards(array) {
     const cardGroup = array.map((item) => (

@@ -13,9 +13,13 @@
 
 #about-text-section {
   align-items: center;
+  border: solid  rgb(133, 85, 189) 1px;
+  border-radius: 20px;
   display: flex;
   font-weight: 400;
   flex-direction: column;
   justify-content: center;
-  width: 60vw;
+  padding: 2rem;
+  text-align: justify;
+  width: 50vw;
 }
