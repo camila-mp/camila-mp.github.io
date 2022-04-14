@@ -1,6 +1,6 @@
-# Boas vindas ao repositório do meu portifólio!
+# Boas vindas ao repositório do meu portfólio!
 
-Acesse meu a página clicando <a href="https://camila-mp.github.io/webwallet">aqui</a>.
+Acesse meu portfólio clicando <a href="https://camila-mp.github.io/webwallet">aqui</a>.
 
 # Sobre
 
