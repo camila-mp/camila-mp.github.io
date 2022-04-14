@@ -12,13 +12,11 @@ function App() {
   return (
     <div id="app-container">
       <Navbar />
-      <Routes>
-        <Route exact path="/about" element={ <About /> } />
-        <Route exact path="/projects" element={ <Projects /> } />
-        <Route exact path="/home" element={ <Home /> } />
-        <Route exact path="/" element={ <Navigate replace to="/home" /> } />
-        <Route path="*" exact="true" element={ <NotFound /> } />
-      </Routes>
+      <Route exact path="/about" element={ <About /> } />
+      <Route exact path="/projects" element={ <Projects /> } />
+      <Route exact path="/home" element={ <Home /> } />
+      <Route exact path="/" element={ <Navigate replace to="/home" /> } />
+      <Route path="*" exact="true" element={ <NotFound /> } />
       <Footer />
     </div>
   );
