@@ -13,9 +13,9 @@ function App() {
       <Navbar />
       <Routes>
         <Route exact path="/" element={ <Navigate replace to="/home" /> } />
-        <Route exact path="/home" element={ <Home /> } />
-        <Route exact path="/about" element={ <About /> } />
-        <Route exact path="/projects" element={ <Projects /> } />
+        <Route path="/home" element={ <Home /> } />
+        <Route path="/about" element={ <About /> } />
+        <Route path="/projects" element={ <Projects /> } />
       </Routes>
       <Footer />
     </div>
