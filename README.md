@@ -1,7 +1,8 @@
 # Boas vindas ao repositório do meu portfólio!
 
 Acesse meu portfólio clicando <a href="https://camila-mp.github.io/portfolio/">aqui</a>.
-Caso algo não funcione corretamente na página, é devido aos problemas técnicos no deploy que eu ainda estou tentando resolver.
+
+** **Projeto em processo de construção/atualização constante** **
 
 # Sobre
 
