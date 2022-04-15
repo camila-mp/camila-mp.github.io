@@ -13,10 +13,10 @@ export default function Navbar() {
           <Nav.Link className="nav-link" href="/#/">Home</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link className="nav-link" href="/#/about">Sobre</Nav.Link>
+          <Nav.Link className="nav-link" href="portfolio/#/about">Sobre</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link className="nav-link" href="/#/projects">Projetos</Nav.Link>
+          <Nav.Link className="nav-link" href="portfolio/#/projects">Projetos</Nav.Link>
         </Nav.Item>
         <Nav.Item>
           <Nav.Link
