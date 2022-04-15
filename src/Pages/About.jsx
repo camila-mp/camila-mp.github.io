@@ -11,6 +11,11 @@ export default function About() {
     <Container id="about-container">
       <h1>Sobre mim</h1>
       <section id="about-text-section">
+        <ul id="about-list">
+          <li>Idade: 31</li>
+          <li>Naturalidade: Rio Claro - SP</li>
+          <li>Línguas: Português, Inglês (fluente) e Francês (básico)</li>
+        </ul>
         <p>{ textAboutProfessional1 }</p>
         <p>{ textAboutProfessional2 }</p>
         <p>{ textAboutPersonal }</p>

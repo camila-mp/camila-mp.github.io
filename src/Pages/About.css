@@ -23,3 +23,7 @@
   text-align: justify;
   width: 50vw;
 }
+
+#about-list {
+  text-align: left;
+}
