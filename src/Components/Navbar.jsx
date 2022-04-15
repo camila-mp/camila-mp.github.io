@@ -10,7 +10,7 @@ export default function Navbar() {
     <Container fluid as="nav" id="nav-bar">
       <Nav className="justify-content-center" id="nav-itens-container">
         <Nav.Item>
-          <Nav.Link className="nav-link" href="/#/home">Home</Nav.Link>
+          <Nav.Link className="nav-link" href="/#/">Home</Nav.Link>
         </Nav.Item>
         <Nav.Item>
           <Nav.Link className="nav-link" href="/#/about">Sobre</Nav.Link>
