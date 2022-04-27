@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import './Navbar.css';
@@ -10,7 +11,7 @@ export default function Navbar() {
     <Container fluid as="nav" id="nav-bar">
       <Nav className="justify-content-center" id="nav-itens-container">
         <Nav.Item>
-          <Nav.Link className="nav-link" href="https://camila-mp.github.io/portfolio/#/">Home</Nav.Link>
+          <Link className="nav-link" to="/">Home</Link>
         </Nav.Item>
         <Nav.Item>
           <Nav.Link className="nav-link" href="https://camila-mp.github.io/portfolio/#/about">Sobre</Nav.Link>
