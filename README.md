@@ -6,7 +6,7 @@ Acesse meu portfólio clicando <a href="https://camila-mp.github.io/portfolio/">
 
 # Sobre
 
-Projeto desenvolvido individualmente para mostrar informações sobre mim, minhas competências técnicas e projetos. Foi muito divertido praticar React e testar o React Bootstrap neste projeto.
+Projeto desenvolvido com o objetivo de ser uma página pessoal com design responsivo e intuitivo. O conteúdo é composto por informações sobre mim, minhas competências técnicas e projetos. Foi divertido praticar responsividade, React e React-Bootstrap neste projeto.
 
 # Tecnologias utilizadas
 
