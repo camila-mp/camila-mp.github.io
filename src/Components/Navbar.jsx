@@ -14,10 +14,10 @@ export default function Navbar() {
           <Link className="nav-link" to="/">Home</Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link className="nav-link" href="https://camila-mp.github.io/portfolio/#/about">Sobre</Nav.Link>
+          <Link className="nav-link" to="/about">Sobre</Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link className="nav-link" href="https://camila-mp.github.io/portfolio/#/projects">Projetos</Nav.Link>
+          <Link className="nav-link" to="/projects">Projetos</Link>
         </Nav.Item>
         <Nav.Item>
           <Nav.Link
