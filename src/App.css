@@ -5,9 +5,9 @@ https://getcssscan.com/css-box-shadow-examples*/
 
 :root {
   --clr-light-mint: #F1FFFA;
-  --clr-medium-grey-blue: rgb(148, 148, 163);
-  --clr-medium-turquoise: #05A8AA;
-  --clr-deep-violet: rgb(133, 85, 189);
+  --clr-medium-grey: rgb(81, 81, 81);
+  --clr-medium-turquoise: #049598;
+  --clr-deep-violet: rgb(190, 202, 250);
 
   --ff-main: 'Rubik', sans-serif;
 }
@@ -16,7 +16,7 @@ body {
   color: var(--clr-light-mint);
   font-family: var(--ff-main);
   font-weight: 600;
-}
+} 
 
 
 button {
@@ -38,14 +38,18 @@ button {
 }
 
 #app-container {
-  background-color: var(--clr-medium-grey-blue);
+  background-color: var(--clr-medium-grey);
   min-height: 100vh;
   position: relative;
   width: 100%;
 }
 
 #home-container {
-  background-color: var(--clr-medium-grey-blue);
+  background-color: var(--clr-medium-grey);
+}
+
+#about-text-section {
+  border: solid var(--clr-deep-violet) 1px;
 }
 
 .h3-dev-title {
@@ -76,7 +80,7 @@ button {
 }
 
 .card-back {
-  background-color: var(--clr-medium-grey-blue);
+  background-color: var(--clr-medium-grey);
   color: var(--clr-light-mint);
 }
 
@@ -87,5 +91,5 @@ button {
 
 #projectcard-tag {
   color: var(--clr-light-mint);
-  border: 1px solid var(--clr-deep-violet);
+  border: 1px solid black;
 }
