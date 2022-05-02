@@ -5,9 +5,9 @@ https://getcssscan.com/css-box-shadow-examples*/
 
 :root {
   --clr-light-mint: #F1FFFA;
-  --clr-medium-grey: rgb(81, 81, 81);
+  --clr-medium-grey: #787878;
   --clr-medium-turquoise: #049598;
-  --clr-deep-violet: rgb(190, 202, 250);
+  --clr-deep-violet: rgb(189, 191, 246);
 
   --ff-main: 'Rubik', sans-serif;
 }
@@ -16,11 +16,6 @@ body {
   color: var(--clr-light-mint);
   font-family: var(--ff-main);
   font-weight: 600;
-} 
-
-
-button {
-  background-color: var(--clr-medium-turquoise);
 }
 
 #picture-camila {
@@ -30,11 +25,6 @@ button {
 #nav-bar {
   background-color: var(--clr-medium-turquoise);
   width: 100%;
-}
-
-#back-btn {
-  background-color: var(--clr-medium-turquoise);
-  color: var(--clr-light-mint);
 }
 
 #app-container {
