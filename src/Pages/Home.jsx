@@ -29,7 +29,7 @@ export default function Home() {
       <img id="picture-camila" src={ mypic } alt="foto-camila-malvessi" />
       <header id="name-header">
         <h1>Camila Malvessi Pereira</h1>
-        <h3 className="h3-dev-title">Desenvolvedora fullstack</h3>
+        <h3 className="h3-dev-title">Desenvolvedora</h3>
       </header>
       <section id="card-section">
         <div className="handmade-card">

@@ -28,59 +28,59 @@ https://codepen.io/alphardex/pen/ExaZgxp*/
   height: 40%;
   justify-content: center;
   padding: .5em;
-  perspective: 800px;
   width: 80vw;
 }
 
 .handmade-card {
   align-items: center;
   border-radius: 20px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px;
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
-  height: 240px;
+  height: 235px;
   justify-content: center;
-  padding: 1em;
+  padding: .5em;
   position: relative;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
+  transition: 0.7s;
   width: 250px;
-}
-
-.handmade-card:hover {
-  transform: rotateY(180deg);
 }
 
 .card-front {
   border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px;
   display: flex;
   flex-direction: row;
   font-weight: bold;
   justify-content: center;
   align-items: center;
   height: 100%;
-  position: absolute;
+  position: relative;
   text-align: center;
-  transition: .5s ease-in-out;
+  z-index: 1;
+  transition-property: all;
+  transition-duration: .7s;
   width: 100%;
 }
 
 .card-back {
   align-items: center;
   align-content: center;
-  backface-visibility: hidden;
   border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px;
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
   height: 100%;
   justify-content: center;
-  position: absolute;
+  position: relative;
   text-align: center;
-  transition: .5s ease-in-out;
-  transform: rotateY(180deg);
+  transition: .7s;
+  transform: translateY(-219px);
   width: 100%;
+}
+
+.handmade-card:hover .card-front {
+  opacity: 0%;
 }
 
 .backend-skill, .frontend-skill {
