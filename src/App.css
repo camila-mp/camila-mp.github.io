@@ -5,9 +5,9 @@ https://getcssscan.com/css-box-shadow-examples*/
 
 :root {
   --clr-light-mint: #F1FFFA;
-  --clr-medium-grey: #787878;
-  --clr-medium-turquoise: #049598;
-  --clr-deep-violet: rgb(189, 191, 246);
+  --clr-dark-blue: #2F4858;
+  --clr-medium-lavender: #888DBF;
+  --clr-light-blue: #77ffff;
 
   --ff-main: 'Rubik', sans-serif;
 }
@@ -19,31 +19,31 @@ body {
 }
 
 #picture-camila {
-  border: 3px solid var(--clr-medium-turquoise);
+  border: 3px solid var(--clr-medium-lavender);
 }
 
 #nav-bar {
-  background-color: var(--clr-medium-turquoise);
+  background-color: var(--clr-medium-lavender);
   width: 100%;
 }
 
 #app-container {
-  background-color: var(--clr-medium-grey);
+  background-color: var(--clr-dark-blue);
   min-height: 100vh;
   position: relative;
   width: 100%;
 }
 
 #home-container {
-  background-color: var(--clr-medium-grey);
+  background-color: var(--clr-dark-blue);
 }
 
 #about-text-section {
-  border: solid var(--clr-deep-violet) 1px;
+  border: solid var(--clr-light-blue) 1px;
 }
 
 .h3-dev-title {
-  color: var(--clr-deep-violet);
+  color: var(--clr-light-blue);
 }
 
 .nav-link {
@@ -55,27 +55,22 @@ body {
 }
 
 .nav-link:hover {
-  color: var(--clr-deep-violet);
-  transform: scale(1.2); 
-}
-
-.handmade-card {
-  background-color: var(--clr-medium-turquoise);
-  color: var(--clr-deep-violet);
+  transform: scale(1.2);
+  color: black;
 }
 
 .card-front {
-  background-color: var(--clr-medium-turquoise);
+  background-color: var(--clr-medium-lavender);
   color: var(--clr-light-mint);
 }
 
 .card-back {
-  background-color: var(--clr-medium-grey);
+  background-color: var(--clr-dark-blue);
   color: var(--clr-light-mint);
 }
 
 #project-cards .card {
-  background-color: var(--clr-medium-turquoise);
+  background-color: var(--clr-medium-lavender);
   color: var(--clr-light-mint);
 }
 
